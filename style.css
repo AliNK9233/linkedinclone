@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+}
+.logo{
+    width: 50%;
+    padding: 14px;
+    display: flex;
+
+
+}
+
+.logo-text{
+    
+
+    margin-left: 160px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #0a66c2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.InText{
+    
+
+    margin-left: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: #0a66c2;
+    color: #ffffff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.lnlogo{
+
+    width: 71px;
+
+}
+
+.login{
+    width:50%;
+    display: flex;
+
+}
+
+.icons{
+    width: 30px;
+
+    opacity: .3;
+}
+.options{
+    display: flex;
+    transition: opacity 0.3s;
+
+    
+    
+}
+.sub-option{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+
+}
+h5{
+    margin: 7px;
+    opacity: .6;
+}
+
+.sub-option:hover .icons,
+.sub-option:hover h5 {
+    opacity: 1;
+}
+
+.Btn_login{
+    padding: 30px;
+}
+
+
+.btn1{
+    text-decoration:none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+.btn1:hover{
+    background-color: rgb(225, 237, 239);
+}
+
+.btn2{
+    text-decoration:none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: blue;
+}
+.btn2:hover{
+    background-color: rgb(225, 237, 239);
+}
+
+.login_page{
+    width: 50%;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.main-Heading{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 200;
+    color: #8f5849;
+}
+.body1{
+    display: flex;
+}
+.bannerimage{
+    margin-top: 180px;
+    margin-left: 130px;
+    margin-bottom: 150px;
+    margin-right: 10px;
+    width: 700px;
+}
+.label1{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1c1c1b;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+}
+.inputlabel{
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.forgotlabel{
+    color: #0a66c2;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.signinbutton{
+    height: min-content;
+    min-height: 48px;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0a66c2;
+    color: white;
+    cursor: pointer;
+    
+}
+.googllogo{
+    width: 15px;
+    padding: 5px;
+}
+.googlebutton{
+    width: 100%;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #1c1c1b;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.newuserbutton{
+    width: 100%;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #1c1c1b;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.body2{
+    background-color: rgb(230, 241, 241);
+    display: flex;
+    flex-direction: row;
+}
+
+.descriptionarea{
+    width: 50%;
+    align-items: center;
+}
+
+.categoryarea{
+    width: 50%;
+
+    align-items: center;
+}
+.categorybutton{
+    width:auto;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #1c1c1b;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+.body3{
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    flex-direction: row;
+}
+
+.body4{
+    background-color: rgb(230, 241, 241);
+    display: flex;
+    flex-direction: row;
+}
+.body5{
+    background-color: rgb(255, 255, 255);
+
+}
+.commentarea{
+    margin: 30px;
+    display: flex;
+    height: 100%;
+    width: 300%;
+
+
+
+}
+.slider{
+    display: flex;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+
+
+}
+.commentimage{
+    width: 400px;
+}
+.subslider1{
+    width: 50%;
+
+
+
+
+}
+.subslider2{
+    width: 50%;
+    margin-left: 230px;
+}
+
+.body6{
+    background-color: rgb(230, 241, 241);
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+
+}
+.body6img{
+    width: 312px;
+
+}
+.body6heading{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.9);
+}
+.select{
+    width: 250px;
+    font-size: 16px;
+
+    padding: 15px;
+    border-radius: 24px
+}
+
+.body7{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+
+}
+.subcategory{
+
+    min-height: 56px;
+    width: 408px;
+    padding: 16px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+    padding: 5px 29px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+
+.body7image{
+    margin-left: 96px;
+    height: auto;
+
+}
+.subcategory::after {
+    content: '\25BA'; /* Unicode arrow symbol */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  .descriptionarea1{
+    width: 50%;
+    background-color: aliceblue;
+}
+.video1{
+    width: 200px;
+}
+
+.body9{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    padding: 220px;
+    /* background-image: url(./images/background.png); */
+   
+
+}
+
+.buttonjoin{
+    width: 200px;
+    border-radius: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #065fd4;
+    color: rgb(255,255,255);
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 50px
+}
+.logosection{
+    width: 30%;
+}
+ul {
+    list-style: none;
+
+}
+
+.tablesection {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+
+
+}
+.row1{
+    margin-left: 50px;
+}
+.row2{
+    margin-left: 50px;
+}
+.row3{
+    margin-left: 50px;
+}
+.row4{
+    margin-left: 50px;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
