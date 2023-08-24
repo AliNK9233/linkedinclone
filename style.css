@@ -41,6 +41,7 @@ body{
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    height: 40px;
 }
 .lnlogo{
 
@@ -153,8 +154,12 @@ h5{
     flex-direction: column;
 }
 .inputlabel{
-    padding: 10px 10px;
+    padding: 14px 16px;
     margin-bottom: 30px;
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    
 }
 .forgotlabel{
     color: #0a66c2;
@@ -178,11 +183,11 @@ h5{
     
 }
 .googllogo{
-    width: 15px;
-    padding: 5px;
+    width: 20px;
+
 }
 .googlebutton{
-    width: 100%;
+    width: 400px;
     border-radius: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -195,10 +200,13 @@ h5{
     color: #1c1c1b;
     cursor: pointer;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .newuserbutton{
-    width: 100%;
+    width: 400px;
     border-radius: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -216,11 +224,15 @@ h5{
     background-color: rgb(230, 241, 241);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .descriptionarea{
     width: 50%;
     align-items: center;
+    margin-left: 20px;
 }
 
 .categoryarea{
@@ -249,12 +261,18 @@ h5{
     background-color: rgb(254, 254, 254);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .body4{
     background-color: rgb(230, 241, 241);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 .body5{
     background-color: rgb(255, 255, 255);
