@@ -477,4 +477,21 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
-
+.line{
+    height: 1px;
+    width: 250px;
+    background-color: #1c1c1b;
+    width: 190px;
+    background-color: #1c1c1b;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.or{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.lnkedinlogo{
+    
+}
