@@ -387,6 +387,8 @@ h5{
     text-decoration: none;
     position: relative;
     margin-bottom: 25px;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -405,6 +407,7 @@ h5{
   .descriptionarea1{
     width: 50%;
     background-color: aliceblue;
+    margin-left: 50px;
 }
 .video1{
     width: 200px;
@@ -435,7 +438,8 @@ h5{
     color: rgb(255,255,255);
     cursor: pointer;
     margin-bottom: 10px;
-    border-radius: 50px
+    border-color:#065fd4 ;
+
 }
 .logosection{
     width: 30%;
@@ -472,12 +476,13 @@ footer {
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    font-size: 0.75rem;
+
 }
 
 .footer-links {
@@ -519,4 +524,18 @@ footer {
 .lnkedinlogo{
     display: flex;
 
+}
+.linkedinlogoblack{
+    display: flex;
+    font-size: small;
+}
+.copy1{
+    display: flex;
+    font-size: small;
+}
+.copy2 {
+    margin-left: 5px;
+}
+.copyrit{
+    display: flex;
 }
